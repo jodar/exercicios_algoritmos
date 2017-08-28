@@ -1,2 +1,3 @@
-(10..100).step(10) do |n| puts n
+(10..100).step(10).each do |n|
+  print "#{n} "
 end
